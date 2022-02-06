@@ -1,7 +1,7 @@
 # Financial_Planning_Tools
 Application developed to analyze stocks, bonds, cryptocurrency retirements planning
 
-This program is to develop a **Python** application within Jupyter Lab and to perform financial planning analysis for the evaluation of a retirement portfolio.
+This program is to develop a **Python** application within Jupyter Lab and to perform financial planning analysis for the evaluation of a retirement portfolio. 
 
 To determine which  portfolio has the 
 
@@ -9,6 +9,9 @@ Plots are also created to visualize the information for better decision making.
 
 The results from this analysis will indicate the best choice 
 
+When working in jupyter lab, ensure you activate hidden files by allowing notebook to access them via *dotenv*.
+
+Must have keys in a hidden file .env with keys listed
 ---
 
 ## Technologies
@@ -30,23 +33,45 @@ This application is developed on the **Python** *3.7.11 version*. It incorportat
 
 The following installation must be performed before running the program. It include:
 
-Jupyter Lab
+
+**Conda Installations:**
+conda install -c anaconda requests
+conda install -c jmcmurry json
+
+
+**PIP Installations:**
+pip install python-dotenv
+pip install alpaca-trade-api
+
+
+**Set Up Tool for Accessing APIs:**
+alternative.me.crypto/api/
+data.nasdaq.com
+alpaca.markets
 
 
 ---
 
 ## Usage
 
-To run this application, create a clone on the local desktop. Then, 
-
+To run this application, create a clone on the local desktop. Then, initiate your conda environment and 
+open <jupyter lab --ContentsManager.allow=hidden=True>. Now, you can run the notebook in jupyter lab and 
+read hidden file with alpaca keys.
 
 Steps for running application:
 
-1st. file into the program and prepared data.
+1st. Create a Financial Planner for Emergencies
+    * Evaluate Crypto assets via Requests
+    * Evaluate Stocks/Bonds portfolio using Alpaca SDK
+    * Evaluate Emergency Fund
 
-2nd. Financial Planning Analysis: analyze performance, volatility, risk and risk-return profiles.
+2nd. Create a Financial Planner for Retirement
+    * Create Monte Carlo Simulation
+    * Analyze Retirement Portfolio Forecasts
 
-3rd. 30 year and 10 year Monte Carlo Simulations for stock and bonds porfolio: evaluate how the porfolios react relative to time and diversification.
+3rd. Review 30 year and 10 year Monte Carlo Simulations for stock and bonds porfolio: 
+    * evaluate how the stocks/bonds porfolio values react relative to time and diversification.
+    
 
 The image below illustrates the results of the :
 
