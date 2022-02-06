@@ -86,8 +86,6 @@ Steps for running application:
 
 The images below illustrates the results of the 30 year Monte Carlo simulations results:
 
-500 simulations of Cumulative Portfolio Return Trajectories over the next 30 years
-
 <img width="467" alt="Screen Shot 2022-02-06 at 10 00 17 AM" src="https://user-images.githubusercontent.com/93550651/152694609-3ca905d7-e52b-4215-835d-b6f89bd38ba3.png">
 
 <img width="515" alt="Screen Shot 2022-02-06 at 10 00 40 AM" src="https://user-images.githubusercontent.com/93550651/152694621-6b343815-9cc7-45bb-8ae2-7012080c1a3c.png">
