@@ -1,11 +1,13 @@
 # Financial_Planning_Tools
 
-Application developed to analyze stocks, bonds, cryptocurrency retirements planning. 
-This program runs a **Python** application within Jupyter Lab to perform financial 
-planning analysis for the evaluation of a retirement portfolio. 
+Application developed to analyze stocks, bonds, cryptocurrency retirement planning and forecasting. 
+This program runs a **Python** application within Jupyter Lab to perform 
+financial planning analysis for the evaluation of a retirement portfolio. 
+
+Monte Carlo Simulations are performed to evaluate return in a 30 year timeframe and a 10 year timeframe. 
+Also, portfolio diversification is changed to determine possible outcomes.
 
 Line and Bar Plots are created to visualize the information for better understanding and decision making.
-
 When working in jupyter lab, ensure you activate hidden files by allowing notebook to access them via ```dotenv```.
 
 Must have keys in a hidden file .env with keys listed
