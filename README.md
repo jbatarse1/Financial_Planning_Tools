@@ -11,6 +11,7 @@ Line and Bar Plots are created to visualize the information for better understan
 When working in jupyter lab, ensure you activate hidden files by allowing notebook to access them via ```dotenv```.
 
 Must have keys in a hidden file .env with keys listed
+
 ---
 
 ## Technologies
